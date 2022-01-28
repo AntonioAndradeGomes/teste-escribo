@@ -4,7 +4,7 @@ num soma(num value) {
   num limit = value - 1;
   num amountMult3 = (limit / 3).floor();
   num amountMult5 = (limit / 5).floor();
-  num amountMult15 = (limit / 15).floor(); // intersection
+  num amountMult15 = (limit / 15).floor();
 
   num lastMult3 = limit - (limit % 3);
   num lastMult5 = limit - (limit % 5);
